@@ -50,11 +50,11 @@ export default function TextForm(props){
           <label htmlFor="myBox" className="form-label"></label>
           <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor:props.mode==="dark"?"grey":"white",color:props.mode==="dark"?"white":"black"}}id="myBox" rows="8"></textarea>
         </div>
-        <button className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to upper case </button>
-        <button className="btn btn-primary mx-2" onClick={handleLoClick}>Convert to lower case </button>
-        <button className="btn btn-primary mx-2" onClick={clearText}>Clear text </button>
-        <button className="btn btn-primary mx-2" onClick={copyText}>Copy text </button>
-        <button className="btn btn-primary mx-2" onClick={extraSpaces}>Remove extra spaces </button>
+        <button className="btn btn-primary my-2" onClick={handleUpClick}>Convert to upper case </button>
+        <button className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>Convert to lower case </button>
+        <button className="btn btn-primary mx-2 my-2" onClick={clearText}>Clear text </button>
+        <button className="btn btn-primary mx-2 my-2" onClick={copyText}>Copy text </button>
+        <button className="btn btn-primary mx-2 my-2" onClick={extraSpaces}>Remove extra spaces </button>
     </div>
     <div className="conatainer my-3" style={{color:props.mode==="dark"?"white":"#042743"}}>
         <h2>Your text summary</h2>

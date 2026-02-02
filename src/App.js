@@ -1,14 +1,14 @@
 
 import './App.css';
-import About from './components/About';
+// import About from './components/About';
 import NavBar from './components/NavBar';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
 import React,{useState} from 'react';
-import {
-  Route,
-  Routes
-} from "react-router-dom";
+// import {
+//   Route,
+//   Routes
+// } from "react-router-dom";
 
 
 function App() {
@@ -48,13 +48,15 @@ function App() {
 
   <div className="container my-3">
   
-    <Routes>
-        <Route exact
-          path="/"
-          element={<TextForm showAlert={showAlert} heading="Enter the text to analyze" mode={mode} />}
-        />
-        <Route exact path="/about" element={<About />} />
-      </Routes>
+    {/* <Routes> */}
+        {/* <Route exact */}
+          {/* path="/" */}
+          {/* element={ */}
+            <TextForm showAlert={showAlert} heading="Enter the text to analyze" mode={mode} />
+            {/* // } */}
+        {/* /> */}
+        {/* <Route exact path="/about" element={<About />} /> */}
+      {/* </Routes> */}
    </div>
   
 
