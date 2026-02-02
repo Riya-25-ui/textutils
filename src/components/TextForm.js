@@ -54,7 +54,7 @@ export default function TextForm(props){
         <button className="btn btn-primary mx-2" onClick={handleLoClick}>Convert to lower case </button>
         <button className="btn btn-primary mx-2" onClick={clearText}>Clear text </button>
         <button className="btn btn-primary mx-2" onClick={copyText}>Copy text </button>
-        <button className="btn btn-primary mx-2" onClick={extraSpaces}>Remove extra spaces </button>
+        <button className="btn btn-primary my-2" onClick={extraSpaces}>Remove extra spaces </button>
     </div>
     <div className="conatainer my-3" style={{color:props.mode==="dark"?"white":"#042743"}}>
         <h2>Your text summary</h2>
